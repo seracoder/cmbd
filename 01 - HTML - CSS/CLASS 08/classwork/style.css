@@ -1,0 +1,25 @@
+:root {
+ --primary-color: #606c38;
+ --secondary-color: #283618;
+}
+
+
+body {
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}

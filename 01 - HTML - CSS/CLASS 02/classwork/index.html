@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h2>HTML FORMS</h2>
+    <form>
+      <fieldset>
+        <legend style="color: blue">User Registration</legend>
+
+        <!-- Name -->
+        <label for="firstName">First Name</label>
+        <input type="text" placeholder="E.G John Doe" id="firstName" />
+        <br /><br />
+
+        <!-- Email -->
+        <label for="email">Your Email</label>
+        <span style="color: red">*</span>
+        <input type="email" id="email" required />
+        <br /><br />
+
+        <!-- Phone Number -->
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" placeholder="+88016xxxxxxxx" />
+        <br /><br />
+
+        <!-- Password -->
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <br /><br />
+
+        <!-- Dropdown -->
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="">-- Select --</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="India">India</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+        </select>
+        <br /><br />
+
+        <!-- Radio Gender -->
+        <label for="gender">Gender:</label><br />
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="female">Female</label>
+
+        <input type="radio" id="female"  name="gender">
+        <br /><br />
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth</label><br /> 
+        <input type="date" id="dob" />
+        <br /><br />
+
+        <!-- Upload File -->
+        <label for="file">Upload File</label><br />
+        <input type="file" id="file" accept="image/*" multiple/>
+        <br /><br />
+
+        <!-- message -->
+        <label for="message">Any Comments?</label><br />
+        <textarea id="message" rows="4" cols="50" placeholder="Hi..."></textarea>
+        <br /><br />
+
+        <!-- Checkbox -->        
+        <input type="checkbox" id="agree" required/>
+        <label for="agree">I agree to the terms and conditions</label><span style="color: red;">*</span>
+        <br /><br />
+        <!-- Submit -->
+        <input type="submit" value="Send"/> 
+        <input type="reset">
+      </fieldset>
+    </form>
+  </body>
+</html>

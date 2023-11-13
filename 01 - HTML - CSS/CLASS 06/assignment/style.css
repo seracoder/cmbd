@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #385F96;
+    padding: 10px 41px;
+    color: white;
+    border-radius: 50px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+.fs-36 {
+    font-size: 36px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-title {
+    margin: 0;
+    color: #385F96;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.5%; /* 65.04px */
+    letter-spacing: 0.24px;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #385F96;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.5%;
+    letter-spacing: 0.1px;
+}
+
+.flex-content {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-content h2 {
+    margin-bottom: 10px;
+    color: #385F96;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.5%; 
+    letter-spacing: 0.24px;
+    max-width: 526px;
+}
+
+.flex-content p {
+    margin-bottom: 20px;
+    color: #385F96;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%;
+    letter-spacing: 0.1px;
+    max-width: 493px;
+}
+
+.flex-content a {
+    align-self: flex-start;
+}
+
+.use-bg {
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Cover both width (vw) and height (vh) */
+    width: 100%;
+    padding: 111px 0;
+}
+
+footer {
+    display: flex;
+    background-color: #385F96;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}

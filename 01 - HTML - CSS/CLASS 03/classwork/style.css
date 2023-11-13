@@ -1,0 +1,17 @@
+p {
+    color: blue;
+    font-size: 20px !important;
+}
+
+.sub-heading {
+    color: #d58888;
+    font-size: 50px;
+}
+
+.lorem {
+    font-style: italic;
+}
+
+.lorem span {
+    color: #963e3e;
+}

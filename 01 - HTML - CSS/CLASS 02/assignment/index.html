@@ -1,0 +1,87 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <!-- Legend -->
+        <legend style="color: blue"><b>Registration Form</b></legend>
+
+        <!-- First Name -->
+        <label for="firstName"
+          ><b>First Name</b> <span style="color: red">*</span>:
+        </label>
+        <input type="text" placeholder="John" required />
+        <br /><br />
+
+        <!-- Last Name -->
+        <label for="lastName"><b>Last Name</b>: </label>
+        <input type="text" placeholder="Doe" />
+        <br /><br />
+
+        <!-- Date of Birth -->
+        <label for="age"><b>Age</b> <span style="color: red">*</span>:</label>
+        <input type="number" placeholder="18" required />
+        <br /><br />
+
+        <!-- Email -->
+        <label for="email"
+          ><b>E-Mail</b> <span style="color: red">*</span>:
+        </label>
+        <input type="email" placeholder="abc@xyz.com" required />
+        <br /><br />
+
+        <!-- Password -->
+        <label for="password"
+          ><b>Password</b> <span style="color: red">*</span>:</label
+        >
+        <input type="password" placeholder="********" required />
+        <br /><br />
+
+        <!-- Radio Gender -->
+        <label for="gender"><b>Gender</b>: </label><br />
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" checked />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+        <br /><br />
+
+        <!-- Checkbox -->
+        <label for="formType"><b>I am a</b>: </label><br />
+        <label for="student">Student</label>
+        <input type="checkbox" id="student" name="formType" checked />
+        <label for="teacher">Teacher</label>
+        <input type="checkbox" id="teacher" name="formType" />
+        <br /><br />
+
+        <!-- Birthday -->
+        <label for="birthday"><b>Birthday</b>:</label>
+        <input type="date" id="birthday" name="birthday" />
+        <br /><br />
+
+        <!-- Country -->
+        <label for="country"><b>Country</b>:</label>
+        <select id="country" name="country">
+          <option value="">-- Select Your Country --</option>
+          <option value="india">India</option>
+          <option value="usa">Bangladesh</option>
+          <option value="uk">UK</option>
+        </select>
+        <br /><br />
+
+        <!-- Address -->
+        <label for="address"><b>Address</b>:</label><br />
+        <textarea id="address" name="address" rows="5" cols="50"></textarea>
+        <br /><br />
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" />
+        <input type="reset" name="" id="" />
+      </fieldset>
+    </form>
+  </body>
+</html>
