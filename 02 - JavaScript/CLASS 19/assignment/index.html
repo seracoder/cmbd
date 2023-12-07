@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <h1>BASIC CALCULATOR</h1>
+        <div class="inputs-area">
+            <input type="number" id="input-one" value="0">
+            <span id="method">+</span>
+            <input type="number" id="input-two" value="0">
+            <span>=</span><span id="result">0</span>
+        </div>
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Substract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+        <br>
+        <button onclick="clearAll()">Clear All</button>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

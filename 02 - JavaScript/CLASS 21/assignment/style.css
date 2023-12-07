@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --btn-main-bg: #0766AD;
+    --btn-sub-bg: #4d6431;
+}
+body {
+    background-color: #341744;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 40%;
+    margin: 50px auto 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#btn-addTask {
+    margin-top: 10px;
+
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--btn-main-bg);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-addTask:hover {
+    background-color: #53276c;
+}
+
+#btn-addTask:active {
+    background-color: #9d49c5;
+}
+
+.tasks {
+    padding: 10px 20px;
+    height: 100%;
+    background-color: #9d49c5;
+    border: 5px solid #53276c;
+    border-radius: 2%;
+}
+
+/*li*/
+.task-item {
+    background-color: #53276c;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-action {
+    padding: 7px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--btn-sub-bg);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-action:hover {
+    background-color: #789f4a;
+}
+
+.btn-action:active {
+    background-color: #9cce60;
+}
+
+
+p {
+    overflow: auto;
+}
+
+
+/*bring the container weight to 50% for 800px and below*/
+@media screen and (max-width: 800px) {
+    .container {
+        width: 50%;
+    }
+}
